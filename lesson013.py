@@ -29,7 +29,19 @@ print()
 for i,j in [(1,2), (3,4), (5,6)]:
     print(i,j)
 print()
+print('-'*80)
 
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+print()
+
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+print()
 print('-'*80)
 
 
