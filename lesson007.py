@@ -66,14 +66,20 @@ a = '''some items:
         1. item 1
         2. item 2'''
 print(a)
-
-
-
-
 print('-'*80)
 
+def my_func():
+    a = '''a multi-line string
+    that is indented in the second line'''
+    return a
+print(my_func())
+print()
 
-
+def my_func():
+    a = '''a multi-line string
+that is indented in the second line'''
+    return a
+print(my_func())
 
 
 
