@@ -6,3 +6,10 @@ while i < 5:
 i = None
 print('-'*80)
 
+for i in range(5):
+    print(i)
+print('-'*80)
+
+
+
+
