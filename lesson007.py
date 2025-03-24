@@ -37,3 +37,22 @@ my_func(10, #comment
         30 #comment
         )
 print('-'*80)
+
+a = 10
+b = 20
+c = 30
+if a > 5 and b > 10 and c > 20:
+    print('yes')
+
+if a > 5 \
+    and b > 10 \
+        and c > 20:
+    print('yes')
+print('-'*80)
+
+
+
+
+
+
+
