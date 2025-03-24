@@ -47,5 +47,9 @@ print(type(func_5))
 my_func = func_4
 print(func_4())
 print(my_func())
+print('-'*80)
 
-
+print(lambda x: x**2)
+fn1 = lambda x: x**2
+print(fn1(2))
+print(fn1)
