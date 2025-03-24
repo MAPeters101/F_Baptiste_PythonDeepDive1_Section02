@@ -1,0 +1,8 @@
+
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+i = None
+print('-'*80)
+
