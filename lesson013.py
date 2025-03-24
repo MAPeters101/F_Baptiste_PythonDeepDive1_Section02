@@ -53,5 +53,28 @@ else:
     print('no multiples of 7 in the range')
 print('-'*80)
 
+for i in range(5):
+    print('-'*20)
+    try:
+        10 / (i-3)
+    except ZeroDivisionError:
+        print('divided by 0')
+        continue
+    finally:
+        print('always run')
+    print(i)
+
+
+
+
+
+
+print('-'*80)
+
+
+
+
+
+
 
 
