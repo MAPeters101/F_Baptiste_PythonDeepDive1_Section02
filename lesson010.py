@@ -24,6 +24,11 @@ print(func_2([1, 2], 3))
 #print(func_2('a', 'b'))
 print('-'*80)
 
+print(func_2)
+def func_3():
+    return func_4()
 
-
+def func_4():
+    return 'running func_4'
+print(func_3())
 
