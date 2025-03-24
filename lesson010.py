@@ -1,3 +1,5 @@
+from lesson007 import my_func
+
 s = [1,2,3]
 print(len(s))
 
@@ -33,15 +35,17 @@ def func_4():
 print(func_3())
 print('-'*80)
 
-# def func_5():
-#     return func_6()
-# print(func_5())
-# def func_6():
-#     return 'running func_6'
+def func_5():
+    return func_6()
+#print(func_5())
+def func_6():
+    return 'running func_6'
 print('-'*80)
 
-
-
-
+print(type(func_6))
+print(type(func_5))
+my_func = func_4
+print(func_4())
+print(my_func())
 
 
