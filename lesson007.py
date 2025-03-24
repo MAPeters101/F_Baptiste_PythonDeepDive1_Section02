@@ -50,6 +50,28 @@ if a > 5 \
     print('yes')
 print('-'*80)
 
+a = '''this is a string'''
+print(a)
+
+a = '''this 
+is a string'''
+print(a)
+
+a = '''this 
+    is a string
+        that is created over multiple lines'''
+print(a)
+
+a = '''some items:
+        1. item 1
+        2. item 2'''
+print(a)
+
+
+
+
+print('-'*80)
+
 
 
 
