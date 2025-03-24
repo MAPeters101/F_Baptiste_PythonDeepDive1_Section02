@@ -63,7 +63,16 @@ else:
     print('a > 20')
 print('-'*80)
 
+# x if (condition is true) else Y
+a = 25
+if a < 5:
+    b = 'a < 5'
+else:
+    b = 'a >= 5'
+print(b)
 
-
-
+a = 4
+b = 'a < 5' if a < 5 else 'a >= 5'
+print(b)
+print('a < 5' if a < 5 else 'a >= 5')
 
