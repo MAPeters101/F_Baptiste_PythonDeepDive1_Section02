@@ -44,5 +44,14 @@ for i in range(5):
 print()
 print('-'*80)
 
+for i in range(1, 8):
+    print(i)
+    if i%7 == 0:
+        print('multiple of 7 found')
+        break
+else:
+    print('no multiples of 7 in the range')
+print('-'*80)
+
 
 
