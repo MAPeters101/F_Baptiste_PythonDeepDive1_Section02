@@ -31,4 +31,17 @@ def func_3():
 def func_4():
     return 'running func_4'
 print(func_3())
+print('-'*80)
+
+# def func_5():
+#     return func_6()
+# print(func_5())
+# def func_6():
+#     return 'running func_6'
+print('-'*80)
+
+
+
+
+
 
