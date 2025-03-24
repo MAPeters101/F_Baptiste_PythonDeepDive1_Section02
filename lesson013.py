@@ -63,7 +63,29 @@ for i in range(5):
     finally:
         print('always run')
     print(i)
+print('-'*80)
 
+s = 'hello'
+for c in s:
+    print(c)
+print()
+
+s = 'hello'
+i = 0
+for c in s:
+    print(i, c)
+    i += 1
+print()
+
+s = 'hello'
+for i in range(len(s)):
+    print(i, s[i])
+print()
+
+s = 'hello'
+for i, c in enumerate(s):
+    print(i, c)
+print()
 
 
 
