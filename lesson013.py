@@ -22,5 +22,15 @@ for x in {'a', 'b', 'c', 4}:
 print()
 print('-'*80)
 
+for x in [(1,2), (3,4), (5,6)]:
+    print(x)
+print()
+
+for i,j in [(1,2), (3,4), (5,6)]:
+    print(i,j)
+print()
+
+print('-'*80)
+
 
 
