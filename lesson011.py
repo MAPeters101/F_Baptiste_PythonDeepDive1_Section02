@@ -20,13 +20,21 @@ print('-'*80)
 # print("Hello, {0}".format(name))
 # print('-'*80)
 
-min_length = 2
-while True:
-    name = input("Please enter your name: ")
-    if len(name) >= min_length and name.isprintable() and name.isalpha():
-        break
+# min_length = 2
+# while True:
+#     name = input("Please enter your name: ")
+#     if len(name) >= min_length and name.isprintable() and name.isalpha():
+#         break
+#
+# print("Hello, {0}".format(name))
+# print('.'*80)
 
-print("Hello, {0}".format(name))
+a = 0
+while a < 10:
+    a += 1
+    if a%2 == 0:
+        continue
+    print(a)
 print('-'*80)
 
 
