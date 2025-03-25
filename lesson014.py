@@ -234,8 +234,39 @@ print(r1)
 #r1.set_width(-10)
 r1.set_width(100)
 print(r1)
+print('-'*80)
 
+class Rectangle:
+    def __init__(self, width, height):
+        self._width = width
+        self._height = height
 
+    @property
+    def width(self):
+        #print('getting width')
+        return self._width
+
+    @property
+    def height(self):
+        return self._height
+
+    def __str__(self):
+        return 'Rectangle: width={0}, height={1}'.format(self.width, self.height)
+
+    def __repr__(self):
+        return 'Rectangle({0}, {1})'.format(self.width, self.height)
+
+    def __eq__(self, other):
+        if isinstance(other, Rectangle):
+            return self.width == other.width and self.height == other.height
+        else:
+            return False
+
+r1 = Rectangle(10, 20)
+print(r1.width)
+print(r1)
+#r1.width = -100
+#print(r1)
 
 
 
