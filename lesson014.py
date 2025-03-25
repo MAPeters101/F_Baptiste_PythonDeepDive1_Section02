@@ -52,6 +52,67 @@ print(hex(id(r1)))
 print(r1.to_string())
 print('-'*80)
 
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+    def area(self):
+        return self.width * self.height
+
+    def perimeter(self):
+        return 2 * (self.height + self.width)
+
+    def __str__(self):
+        return 'Rectangle: width={0}, height={1}'.format(self.width, self.height)
+
+r1 = Rectangle(10, 20)
+print(str(r1))
+print(r1)
+print()
+
+l = [1,2,3]
+print(str(l))
+print(l)
+print('-'*80)
+
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+    def area(self):
+        return self.width * self.height
+
+    def perimeter(self):
+        return 2 * (self.height + self.width)
+
+    def __str__(self):
+        return 'Rectangle: width={0}, height={1}'.format(self.width, self.height)
+
+    def __repr__(self):
+        return 'Rectangle({0}, {1})'.format(self.width, self.height)
+
+r1 = Rectangle(10, 20)
+print(str(r1))
+print(r1)
+print(repr(r1))
+print()
+
+
+
+
+
+
+
+print('-'*80)
+
+
+
+
+
+
+
 
 
 
